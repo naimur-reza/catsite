@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+  height: 68px;
+  width: 100%;
+}
+.logo img {
+  margin-top: 9px;
+  height: 89px;
+  width: 131px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.navbar ul {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  padding: 13px;
+  text-decoration: none;
+  color: #8b8585;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 30px;
+}
+.navbar ul li a:hover {
+  color: #fdfdfd;
+  background-color: rgb(88, 94, 88);
+  transition: 0.5s;
+}
+body {
+  background-image: url("bgimg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.buk {
+  width: 300px;
+  border: 2px solid rgb(61, 59, 59);
+  position: relative;
+  left: 475px;
+  margin-top: 80px;
+  border-radius: 30px;
+  margin-top: 125px;
+  margin-left: 40px;
+}
+.buk h1 {
+  color: rgb(175, 162, 162);
+  text-align: center;
+  background-color: #00000073;
+  border-radius: 30px;
+  font-family: "Libre Baskerville", serif;
+}
+.somecards {
+  height: 270px;
+  width: 100%;
+  display: flex;
+  margin-top: 70px;
+  margin-top: 100px;
+
+  justify-content: space-evenly;
+}
+#para1 {
+  color: #fdfdfd;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+.somecards .firstcard {
+  height: 245px;
+  width: 280px;
+  border: 2px solid rgb(56, 51, 51);
+  border-radius: 40px;
+  padding: 10px;
+  margin-left: 10px;
+  box-shadow: 20px 5px 54px 9px #e7185d5c;
+  cursor: pointer;
+}
+
+#para2 {
+  color: #fdfdfd;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.somecards .second {
+  height: 245px;
+  width: 280px;
+  border: 2px solid rgb(56, 51, 51);
+  border-radius: 40px;
+  padding: 10px;
+  box-shadow: 20px 5px 54px 9px #e7185d5c;
+  cursor: pointer;
+}
+
+.somecards .third {
+  height: 245px;
+  width: 280px;
+  border: 2px solid rgb(56, 51, 51);
+  border-radius: 40px;
+  padding: 10px;
+  box-shadow: 20px 5px 54px 9px #e7185d5c;
+  cursor: pointer;
+}
+
+#para3 {
+  color: #fdfdfd;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+
+  .header {
+    width: 100%;
+  }
+}
