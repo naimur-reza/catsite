@@ -86,8 +86,27 @@ body {
   margin-left: 10px;
   box-shadow: 20px 5px 54px 9px #e7185d5c;
   cursor: pointer;
+  animation-name: onetime;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
-
+@keyframes onetime {
+  0% {
+    box-shadow: 20px 5px 54px 9px #10dbffa8;
+  }
+  25% {
+    box-shadow: 20px 5px 54px 9px #d90ce08e;
+  }
+  50% {
+    box-shadow: 20px 5px 54px 9px #e6ff08d3;
+  }
+  75% {
+    box-shadow: 20px 5px 54px 9px #0ca89b;
+  }
+  100% {
+    box-shadow: 20px 5px 54px 9px #ec0c5788;
+  }
+}
 #para2 {
   color: #fdfdfd;
   text-align: center;
@@ -102,8 +121,27 @@ body {
   padding: 10px;
   box-shadow: 20px 5px 54px 9px #e7185d5c;
   cursor: pointer;
+  animation-name: twotime;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
-
+@keyframes twotime {
+  0% {
+    box-shadow: 20px 5px 54px 9px #10dbffa8;
+  }
+  25% {
+    box-shadow: 20px 5px 54px 9px #d90ce08e;
+  }
+  50% {
+    box-shadow: 20px 5px 54px 9px #e6ff08d3;
+  }
+  75% {
+    box-shadow: 20px 5px 54px 9px #0ca89b;
+  }
+  100% {
+    box-shadow: 20px 5px 54px 9px #ec0c5788;
+  }
+}
 .somecards .third {
   height: 245px;
   width: 280px;
@@ -112,17 +150,30 @@ body {
   padding: 10px;
   box-shadow: 20px 5px 54px 9px #e7185d5c;
   cursor: pointer;
+  animation-name: threetime;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes threetime {
+  0% {
+    box-shadow: 20px 5px 54px 9px #10dbffa8;
+  }
+  25% {
+    box-shadow: 20px 5px 54px 9px #d90ce08e;
+  }
+  50% {
+    box-shadow: 20px 5px 54px 9px #e6ff08d3;
+  }
+  75% {
+    box-shadow: 20px 5px 54px 9px #0ca89b;
+  }
+  100% {
+    box-shadow: 20px 5px 54px 9px #ec0c5788;
+  }
 }
 
 #para3 {
   color: #fdfdfd;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
-}
-@media only screen and (max-width: 620px) {
-  /* For mobile phones: */
-
-  .header {
-    width: 100%;
-  }
 }
